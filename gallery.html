@@ -24,14 +24,132 @@
 </head>
 
 <body>
-
-  <!-- Add your site or application content here -->
-
-
-
-
-
-
+  <div class="container-xl">
+    <header class="row">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light col">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Bp</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="row">
+      <main class="bg-white col-sm-8">
+        <div class="row">
+          <div class="col">
+        <h1>Curabitur est enim, aliquet non nunc at, dapibus cursus tellus. </h1>
+      </div>
+        </div>
+        <div class="row">
+          <div class="card col-md p-0" style="width: 18rem;">
+            <img src="http://placekitten.com/400/400" class="card-img-top" alt="random kisuli">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kitty1">
+                Large kitty
+              </button>
+            </div>
+          </div>
+          <div class="modal fade" id="kitty1" tabindex="-1" aria-labelledby="kitty1" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Kitty 1</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="http://placekitten.com/400/400" class="card-img-top" alt="random kisuli">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md p-0" style="width: 18rem;">
+            <img src="http://placekitten.com/401/400" class="card-img-top" alt="random kisuli">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kitty2">
+                Large kitty
+              </button>
+            </div>
+          </div>
+          <div class="modal fade" id="kitty2" tabindex="-1" aria-labelledby="kitty2" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Kitty 2</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="http://placekitten.com/401/400" class="card-img-top" alt="random kisuli">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-md p-0" style="width: 18rem;">
+            <img src="http://placekitten.com/402/400" class="card-img-top" alt="random kisuli">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kitty3">
+                Large kitty
+              </button>
+            </div>
+          </div>
+          <div class="modal fade" id="kitty3" tabindex="-1" aria-labelledby="kitty3" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Kitty 3</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="http://placekitten.com/402/400" class="card-img-top" alt="random kisuli">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </main>
+      <aside class="bg-warning col p-4">
+        <h2>Morbi imperdiet enim ac nunc sagittis rhoncus.</h2>
+        <p>Phasellus consectetur convallis consequat. Donec mattis, neque ut rhoncus lacinia, urna enim elementum lorem, a suscipit arcu orci non orci. Pellentesque tristique turpis in nibh rhoncus, venenatis lobortis sapien feugiat. Aliquam erat volutpat. Integer efficitur magna eu condimentum scelerisque. Sed non leo consequat velit venenatis auctor. Fusce eget posuere velit, non sollicitudin nisi. In hac habitasse platea dictumst. </p>     
+      </aside>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
@@ -40,3 +158,4 @@
 </body>
 
 </html>
+
